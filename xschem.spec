@@ -11,6 +11,7 @@ License:        GPLv2+
 URL:            http://repo.hu/projects/xschem
 Source0:        http://repo.hu/projects/xschem/releases/xschem-%{version}.tar.gz
 
+BuildRequires: make
 BuildRequires:  gcc
 BuildRequires:  gawk
 BuildRequires:  flex, bison
