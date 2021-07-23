@@ -4,7 +4,7 @@
 #
 Name:           xschem
 Version:        2.9.2
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Schematic capture and Netlisting EDA tool
 
 License:        GPLv2+
@@ -76,6 +76,9 @@ Documentation for %{name}.
 
 
 %changelog
+* Fri Jul 23 2021 Fedora Release Engineering <releng@fedoraproject.org> - 2.9.2-6
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_35_Mass_Rebuild
+
 * Thu Jan 28 2021 Fedora Release Engineering <releng@fedoraproject.org> - 2.9.2-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_34_Mass_Rebuild
 
