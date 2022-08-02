@@ -3,15 +3,15 @@
 %global rpm_has_recommends    %(rpm --version | awk -e '{print ($3 > 4.12)}')
 #
 Name:           xschem
-Version:        2.9.2
-Release:        8%{?dist}
+Version:        3.1.0
+Release:        1%{?dist}
 Summary:        Schematic capture and Netlisting EDA tool
 
-License:        GPLv2+
+License:        GPL-2.0-or-later
 URL:            http://repo.hu/projects/xschem
 Source0:        http://repo.hu/projects/xschem/releases/xschem-%{version}.tar.gz
 
-BuildRequires: make
+BuildRequires:  make
 BuildRequires:  gcc
 BuildRequires:  gawk
 BuildRequires:  flex, bison
@@ -64,9 +64,10 @@ Documentation for %{name}.
 
 
 %files
-%license COPYING
-%doc AUTHORS Changelog LICENSE README
+%license LICENSE
+%doc AUTHORS Changelog README
 %{_bindir}/%{name}
+%{_bindir}/rawtovcd
 %{_datadir}/%{name}
 %{_mandir}/man1/xschem.1*
 
@@ -76,6 +77,9 @@ Documentation for %{name}.
 
 
 %changelog
+* Tue Aug 02 2022 Alain Vigne <avigne@fedoraproject.org> 3.1.0-1
+- Bump to upstream version 3.1.0
+
 * Sat Jul 23 2022 Fedora Release Engineering <releng@fedoraproject.org> - 2.9.2-8
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild
 
