@@ -77,7 +77,7 @@ Documentation for %{name}.
 
 
 %changelog
-* Wed Oct 31 2024 Matthias Schweikardt <mschweikardt@posteo.de> 3.4.5-1
+* Thu Oct 31 2024 Matthias Schweikardt <mschweikardt@posteo.de> 3.4.5-1
 - Bump to upstream version 3.4.5
 
 * Sat Jan 27 2024 Fedora Release Engineering <releng@fedoraproject.org> - 3.1.0-4
