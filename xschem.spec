@@ -3,7 +3,7 @@
 %global rpm_has_recommends    %(rpm --version | awk -e '{print ($3 > 4.12)}')
 #
 Name:           xschem
-Version:        3.1.0
+Version:        3.4.5
 Release:        4%{?dist}
 Summary:        Schematic capture and Netlisting EDA tool
 
@@ -77,6 +77,9 @@ Documentation for %{name}.
 
 
 %changelog
+* Wed Oct 31 2024 Matthias Schweikardt <mschweikardt@posteo.de> 3.4.5-1
+- Bump to upstream version 3.4.5
+
 * Sat Jan 27 2024 Fedora Release Engineering <releng@fedoraproject.org> - 3.1.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
 
