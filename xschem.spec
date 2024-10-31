@@ -4,7 +4,7 @@
 #
 Name:           xschem
 Version:        3.4.5
-Release:        4%{?dist}
+Release:        1%{?dist}
 Summary:        Schematic capture and Netlisting EDA tool
 
 License:        GPL-2.0-or-later
