@@ -80,6 +80,9 @@ Documentation for %{name}.
 * Thu Oct 31 2024 Matthias Schweikardt <mschweikardt@posteo.de> 3.4.5-1
 - Bump to upstream version 3.4.5
 
+* Sat Jul 20 2024 Fedora Release Engineering <releng@fedoraproject.org> - 3.1.0-5
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_41_Mass_Rebuild
+
 * Sat Jan 27 2024 Fedora Release Engineering <releng@fedoraproject.org> - 3.1.0-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_40_Mass_Rebuild
 
